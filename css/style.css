@@ -607,8 +607,11 @@ img{
 	position:relative;
 	float:left;
 	left:0px;
+	width: auto;
+	height: auto;
 	z-index:10;
-	padding:0px 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .fixed-header .main-box .logo-box{
@@ -1929,17 +1932,27 @@ img{
 
 .business-section .image-column{
 	position:relative;
-	margin-bottom:40px;
+	margin-bottom:20px;
 }
 
 .business-section .image-column .image{
 	position:relative;
+	margin-top: 
 }
 
 .business-section .image-column .image img{
 	position:relative;
 	width:100%;
 	display:block;
+}
+
+.business-section .image-caption{
+	position: relative;
+	margin-top: 5px;
+	font-size: 30px;
+	font-weight: 500;
+	margin-left: 75px;
+	font-family: fantasy;
 }
 
 .business-section .content-column{
@@ -1980,7 +1993,7 @@ img{
 .testimonial-section{
 	position:relative;
 	padding:40px 0px 50px;
-	background:url(../images/background/2.png) right center no-repeat;
+	background:url(../images/background.png) right center no-repeat;
 }
 
 /*testimonial style one*/
@@ -3299,35 +3312,30 @@ img{
 .page-title{
 	position:relative;
 	color:#ffffff;
-	padding:150px 0px 90px;
-	background-color:#17222b;
-	background-size:cover;
-	background-position:center center;
-	background-repeat:no-repeat;
+	padding:130px 0px 60px;
+	background-color:#17222b;	
 }
 
 .page-title:before{
-	position:absolute;
+	position:relative;
 	content:'';
 	left:0px;
 	top:0px;
 	width:100%;
 	height:100%;
 	opacity:0.02;
-	background-size:cover;
-	background:url(../images/background/pattern-4.png) center center no-repeat;
 }
 
 .page-title .auto-container{
 	position:relative;
-	z-index:1;	
+	z-index:0;	
 }
 
 .page-title h1{
 	position:relative;
 	font-size:48px;
-	line-height:1.2em;
-	font-weight:700;
+	line-height:0.2em;
+	font-weight:500;
 	margin-bottom:0px;
 	letter-spacing:1px;
 	text-transform:capitalize;
@@ -3335,7 +3343,7 @@ img{
 
 .page-title .bread-crumb{
 	position:relative;
-	padding-top:15px;
+	padding-top:0px;
 	text-align:right;
 }
 
@@ -5751,7 +5759,7 @@ line-height:450px;
 /*background-color:#fff;
 height:450px;*/
 	
-background:url(../images/bannerhead.png) left top no-repeat;
+background:url(../images/main_background_new.jpg) left top no-repeat;
 height:450px;
 
 }
@@ -5777,7 +5785,7 @@ label {
 	font-weight:bold !important;
 	
 	font-size:80px !important;
-	color:#000 !important;}
+	color:#ffffff !important;}
 
 	
 
